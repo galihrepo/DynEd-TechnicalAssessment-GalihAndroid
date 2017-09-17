@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Dyned</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name="user">User</string>
+    <string name="openDrawer">drawer open</string>
+    <string name="closeDrawer">drawer close</string>
+    <string name="search">find here.. (case sensitive)</string>
+    <string name="address">Address :</string>
+    <string name="geo">Geo :</string>
+    <string name="company">Company :</string>
+    <string name="exit_confirmation">Are you sure want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="galih_adityo">Galih Adityo</string>
+    <string name="galih_adityo_email">galihadityo@gmail.com</string>
+    <string name="galih_adityo_phone">08563388909</string>
+</resources>

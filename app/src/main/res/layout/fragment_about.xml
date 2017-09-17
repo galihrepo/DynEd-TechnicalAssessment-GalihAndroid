@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/galih_adityo"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.dyned.app.android.base.BaseTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/galih_adityo"
+            android:textSize="22sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <com.dyned.app.android.base.BaseTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/galih_adityo_email"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+        <com.dyned.app.android.base.BaseTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/galih_adityo_phone"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+</LinearLayout>

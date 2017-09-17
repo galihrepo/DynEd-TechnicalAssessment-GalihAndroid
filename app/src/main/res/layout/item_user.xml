@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/btn_toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Galih"
+                            android:textSize="14sp"
+                            android:textColor="#37474f"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_username"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="galihadityo@gmail.com"
+                            android:textSize="12sp"
+                            android:textColor="#b68dc3"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jalan Sudirman 2 no 289"
+                            android:textSize="10sp"
+                            android:textColor="#90949c"/>
+
+                    </LinearLayout>
+
+                    <com.dyned.app.android.base.BaseImageView
+                        android:id="@+id/iv_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_expand_more"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"/>
+
+                </LinearLayout>
+
+                <net.cachapa.expandablelayout.ExpandableLayout
+                    android:id="@+id/expanadable_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:el_duration="1000"
+                    app:el_parallax="0.5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:background="#FAFAFA"
+                        android:padding="5dp">
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jalan Sudirman 2 no 289"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/address"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_street"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_suite"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_city"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_zipcode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/geo"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_long"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_lat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_website"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/company"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_company_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_company_catch_phrase"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                        <com.dyned.app.android.base.BaseTextView
+                            android:id="@+id/tv_company_bs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="#90949c"/>
+
+                    </LinearLayout>
+
+                </net.cachapa.expandablelayout.ExpandableLayout>
+
+            </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
